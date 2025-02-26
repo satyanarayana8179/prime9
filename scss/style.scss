@@ -239,7 +239,7 @@ button[type="submit"]{ height: 54px; border: none; background: $color-brown; col
 	.container{flex-direction: column;
 		.upper-side{width: 100%; display: flex; flex-wrap: wrap; padding: 20px 0; align-items: center; transform: translateY(-80px); @include transition-cubic; transition-delay: 1.20s;
 			.logo{margin-left: 0;
-				img{height: 48px;}}
+				img{height: 70px;}}
 			.phone-email{margin-right: 0; margin-left: auto; margin-top: 5px; text-align: right; color: #fff;
 				img{float: right; height: 34px; margin-left: 15px;}
 				h4{margin-bottom: -5px; margin-top: 3px; font-size: 17px; font-weight: 600; display: -webkit-box; line-height: 1;}
