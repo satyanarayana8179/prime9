@@ -1109,6 +1109,17 @@ button[type=submit] {
   color: #ebcfa7;
 }
 
+@media (max-width: 768px) {
+  .slider .slider-container .swiper-slide.slider01 img,
+  .slider .slider-container .swiper-slide.slider02 img,
+  .slider .slider-container .swiper-slide.slider03 img {
+    width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%;
+  }
+}
+
+
 /* PAGE HEADER */
 .page-header {
   width: 100%;
