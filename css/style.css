@@ -744,7 +744,7 @@ button[type=submit] {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  padding: 10px 5px;
+  padding: 5px 0px;
 }
 
 .navbar .menu ul li a:hover {
@@ -1047,6 +1047,61 @@ button[type=submit] {
   color: #ebcfa7;
 }
 
+/* Add these classes to your slides */
+.slider-container .swiper-slide.slide-right .container {
+  text-align: right;
+  padding-right: 100px;
+  padding-left: 0;
+  margin-left: auto;
+}
+
+.slider-container .swiper-slide.slide-left .container {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 0;
+}
+
+/* Fix button alignment */
+.slider-container .swiper-slide.slide-right .container a {
+  float: right;
+}
+
+/* Add these styles to your existing CSS */
+.slider-container .swiper-slide .container {
+  width: 100%;
+  max-width: 800px; /* Optional: set maximum width */
+}
+
+/* Right-aligned slides */
+.slider-container .swiper-slide.slide-right .container {
+  margin-left: auto;
+  padding-right: 10px; /* Reduced from 100px for better proportion */
+  padding-left: 0;
+}
+
+/* Left-aligned slide */
+.slider-container .swiper-slide.slide-left .container {
+  margin-right: auto;
+  padding-left: 10px; /* Reduced from 100px for better proportion */
+  padding-right: 0;
+}
+
+/* Responsive text sizing */
+.slider-container .swiper-slide .container h1 {
+  font-size: 3.5vw; /* Reduced from 5vw */
+  line-height: 1.2;
+}
+
+.slider-container .swiper-slide .container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Button adjustments */
+.slider-container .swiper-slide .container a {
+  font-size: 13px;
+  padding: 0 30px;
+}
 
 
 /* PAGE HEADER */
