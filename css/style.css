@@ -744,7 +744,7 @@ button[type=submit] {
   color: white;
   text-decoration: none;
   font-weight: 600;
-  padding: 10px 15px;
+  padding: 10px 5px;
 }
 
 .navbar .menu ul li a:hover {
