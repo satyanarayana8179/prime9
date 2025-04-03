@@ -744,7 +744,7 @@ button[type=submit] {
   color: rgb(72, 68, 68);
   text-decoration: none;
   font-weight: 600;
-  padding: 5px 0px;
+  padding: 0px 0px;
 }
 
 .navbar .menu ul li a:hover {
@@ -780,7 +780,7 @@ button[type=submit] {
   .navbar .menu ul {
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 10px;
       left: 0;
       width: 100%;
       background: rgba(0, 0, 0, 0.8);
