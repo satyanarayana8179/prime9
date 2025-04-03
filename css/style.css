@@ -698,7 +698,7 @@ button[type=submit] {
   left: 0;
   top: 0;
   z-index: 1000;
-  background: transparent; /* Makes background transparent */
+  background: white; /* Makes background transparent */
 }
 
 .navbar .container {
@@ -707,7 +707,7 @@ button[type=submit] {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 15px 30px;
+  padding: 7px 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* Retains divider */
 }
 
@@ -719,7 +719,7 @@ button[type=submit] {
 }
 
 .navbar .logo img {
-  height: 48px;
+  height: 60px;
 }
 
 /* Aligns the menu to the center */
@@ -741,7 +741,7 @@ button[type=submit] {
 }
 
 .navbar .menu ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: 600;
   padding: 5px 0px;
@@ -765,7 +765,7 @@ button[type=submit] {
   display: block;
   width: 30px;
   height: 3px;
-  background: white;
+  background: black;
   margin: 3px 0;
   transition: all 0.3s ease-in-out;
 }
