@@ -1217,7 +1217,7 @@ button[type=submit] {
 }
 .intro .content-box p {
   display: block;
-  padding-right: 40%;
+  padding-right: 30%;
   margin-bottom: 30px;
 }
 .intro .content-box a {
@@ -1228,6 +1228,7 @@ button[type=submit] {
 .intro .content-box a img {
   height: 46px;
   margin-right: 15px;
+
 }
 .intro .content-box a:hover {
   color: #9f8054;
@@ -1486,7 +1487,7 @@ button[type=submit] {
 }
 .property-calculator .content-box {
   display: block;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 .property-calculator .content-box b {
   display: block;
@@ -1526,7 +1527,7 @@ button[type=submit] {
 }
 .property-calculator .content-box p {
   display: block;
-  padding-right: 40%;
+  padding-right: 0%;
   margin-bottom: 30px;
 }
 .property-calculator .content-box a {
